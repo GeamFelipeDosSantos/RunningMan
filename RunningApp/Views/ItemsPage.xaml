@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="RunningApp.Views.ItemsPage"
+             Title="{Binding Title}"
+             BackgroundColor="Gray"
+             x:Name="BrowseItemsPage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Sair" 
+                     
+                     />
+    </ContentPage.ToolbarItems>
+
+    <StackLayout Padding="10">
+        <Button Text="Caminhada" 
+                Clicked="OnButtonClicked"
+                TextColor="Gray"
+                FontSize="36"
+                BackgroundColor="Orange"
+                BorderColor="Orange"
+                BorderWidth="5"
+                CornerRadius="25"
+                WidthRequest="150"
+                HeightRequest="75"/>
+        <Button Text="Leve" 
+                Clicked="OnButtonClicked"
+                TextColor="Gray"
+                FontSize="36"
+                BackgroundColor="Orange"
+                BorderColor="Orange"
+                BorderWidth="5"
+                CornerRadius="25"
+                WidthRequest="150"
+                HeightRequest="75"/>
+        <Button Text="Iniciante" 
+                Clicked="OnButtonClicked"
+                TextColor="Gray"
+                FontSize="36"
+                BackgroundColor="Orange"
+                BorderColor="Orange"
+                BorderWidth="5"
+                CornerRadius="25"
+                WidthRequest="150"
+                HeightRequest="75"/>
+        <Button Text="Intermediário" 
+                Clicked="OnButtonClicked"
+                TextColor="Gray"
+                FontSize="36"
+                BackgroundColor="Orange"
+                BorderColor="Orange"
+                BorderWidth="5"
+                CornerRadius="25"
+                WidthRequest="150"
+                HeightRequest="75"/>
+        <Button Text="Avançado" 
+                Clicked="OnButtonClicked"
+                TextColor="Gray"
+                FontSize="36"
+                BackgroundColor="Orange"
+                BorderColor="Orange"
+                BorderWidth="5"
+                CornerRadius="25"
+                WidthRequest="150"
+                HeightRequest="75"/>
+        <Button Text="Atleta" 
+                Clicked="OnButtonClicked"
+                TextColor="Gray"
+                FontSize="36"
+                BackgroundColor="Orange"
+                BorderColor="Orange"
+                BorderWidth="5"
+                CornerRadius="25"
+                WidthRequest="150"
+                HeightRequest="75"/>
+    </StackLayout>
+</ContentPage>
