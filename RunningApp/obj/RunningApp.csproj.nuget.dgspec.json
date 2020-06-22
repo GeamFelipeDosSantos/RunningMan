@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Desenvolvimento\\Projetos Xamarin\\RunnigMan\\RunningApp\\RunningApp\\RunningApp.csproj": {}
+    "D:\\Desenvolvimento\\Projetos Xamarin\\RunningMan\\RunningMan\\RunningApp\\RunningApp.csproj": {}
   },
   "projects": {
-    "D:\\Desenvolvimento\\Projetos Xamarin\\RunnigMan\\RunningApp\\RunningApp\\RunningApp.csproj": {
+    "D:\\Desenvolvimento\\Projetos Xamarin\\RunningMan\\RunningMan\\RunningApp\\RunningApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desenvolvimento\\Projetos Xamarin\\RunnigMan\\RunningApp\\RunningApp\\RunningApp.csproj",
+        "projectUniqueName": "D:\\Desenvolvimento\\Projetos Xamarin\\RunningMan\\RunningMan\\RunningApp\\RunningApp.csproj",
         "projectName": "RunningApp",
-        "projectPath": "D:\\Desenvolvimento\\Projetos Xamarin\\RunnigMan\\RunningApp\\RunningApp\\RunningApp.csproj",
+        "projectPath": "D:\\Desenvolvimento\\Projetos Xamarin\\RunningMan\\RunningMan\\RunningApp\\RunningApp.csproj",
         "packagesPath": "C:\\Users\\Geam\\.nuget\\packages\\",
-        "outputPath": "D:\\Desenvolvimento\\Projetos Xamarin\\RunnigMan\\RunningApp\\RunningApp\\obj\\",
+        "outputPath": "D:\\Desenvolvimento\\Projetos Xamarin\\RunningMan\\RunningMan\\RunningApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

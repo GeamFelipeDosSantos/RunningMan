@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "U+AWiUMyKZs5Yd97HIGGRvjtUH5424E3FUADNb8fo0ONmR4o8xpO2lCqPYMaubXpD3Cnoe2+ww2goL4BT16K8Q==",
+  "dgSpecHash": "MNitczs1q4iQGXIBsQyCVQvL5Bcy7cjJep84gzVKRr25yWAM0pc/Y/EjoAPYV1LtPe0rK12ziuX6f5XKq99iWw==",
   "success": true,
-  "projectFilePath": "D:\\Desenvolvimento\\Projetos Xamarin\\RunnigMan\\RunningApp\\RunningApp.Android\\RunningApp.Android.csproj",
+  "projectFilePath": "D:\\Desenvolvimento\\Projetos Xamarin\\RunningMan\\RunningMan\\RunningApp.Android\\RunningApp.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Geam\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Geam\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\Geam\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.runtime\\1.1.1.3\\xamarin.android.arch.core.runtime.1.1.1.3.nupkg.sha512",

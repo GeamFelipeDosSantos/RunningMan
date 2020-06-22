@@ -17,7 +17,7 @@
 
     <StackLayout Padding="10">
         <Button Text="Caminhada" 
-                Clicked="OnButtonClicked"
+                Clicked="DirecionarTelaCaminhada"
                 TextColor="Gray"
                 FontSize="36"
                 BackgroundColor="Orange"
@@ -27,7 +27,7 @@
                 WidthRequest="150"
                 HeightRequest="75"/>
         <Button Text="Leve" 
-                Clicked="OnButtonClicked"
+                Clicked="DirecionarTelaTreinoLeve"
                 TextColor="Gray"
                 FontSize="36"
                 BackgroundColor="Orange"
@@ -37,7 +37,7 @@
                 WidthRequest="150"
                 HeightRequest="75"/>
         <Button Text="Iniciante" 
-                Clicked="OnButtonClicked"
+                Clicked="DirecionarTelaTreinoIniciante"
                 TextColor="Gray"
                 FontSize="36"
                 BackgroundColor="Orange"
@@ -47,7 +47,7 @@
                 WidthRequest="150"
                 HeightRequest="75"/>
         <Button Text="Intermediário" 
-                Clicked="OnButtonClicked"
+                Clicked="DirecionarTelaTreinoIntermediario"
                 TextColor="Gray"
                 FontSize="36"
                 BackgroundColor="Orange"
@@ -57,7 +57,7 @@
                 WidthRequest="150"
                 HeightRequest="75"/>
         <Button Text="Avançado" 
-                Clicked="OnButtonClicked"
+                Clicked="DirecionarTelaTreinoAvancado"
                 TextColor="Gray"
                 FontSize="36"
                 BackgroundColor="Orange"
@@ -67,7 +67,7 @@
                 WidthRequest="150"
                 HeightRequest="75"/>
         <Button Text="Atleta" 
-                Clicked="OnButtonClicked"
+                Clicked="DirecionarTelaTreinoAtleta"
                 TextColor="Gray"
                 FontSize="36"
                 BackgroundColor="Orange"

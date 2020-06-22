@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Desenvolvimento\\Projetos Xamarin\\RunnigMan\\RunningApp\\RunningApp.Android\\RunningApp.Android.csproj": {}
+    "D:\\Desenvolvimento\\Projetos Xamarin\\RunningMan\\RunningMan\\RunningApp.Android\\RunningApp.Android.csproj": {}
   },
   "projects": {
-    "D:\\Desenvolvimento\\Projetos Xamarin\\RunnigMan\\RunningApp\\RunningApp.Android\\RunningApp.Android.csproj": {
+    "D:\\Desenvolvimento\\Projetos Xamarin\\RunningMan\\RunningMan\\RunningApp.Android\\RunningApp.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desenvolvimento\\Projetos Xamarin\\RunnigMan\\RunningApp\\RunningApp.Android\\RunningApp.Android.csproj",
+        "projectUniqueName": "D:\\Desenvolvimento\\Projetos Xamarin\\RunningMan\\RunningMan\\RunningApp.Android\\RunningApp.Android.csproj",
         "projectName": "RunningApp.Android",
-        "projectPath": "D:\\Desenvolvimento\\Projetos Xamarin\\RunnigMan\\RunningApp\\RunningApp.Android\\RunningApp.Android.csproj",
+        "projectPath": "D:\\Desenvolvimento\\Projetos Xamarin\\RunningMan\\RunningMan\\RunningApp.Android\\RunningApp.Android.csproj",
         "packagesPath": "C:\\Users\\Geam\\.nuget\\packages\\",
-        "outputPath": "D:\\Desenvolvimento\\Projetos Xamarin\\RunnigMan\\RunningApp\\RunningApp.Android\\obj\\",
+        "outputPath": "D:\\Desenvolvimento\\Projetos Xamarin\\RunningMan\\RunningMan\\RunningApp.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "D:\\Desenvolvimento\\Projetos Xamarin\\RunnigMan\\RunningApp\\RunningApp\\RunningApp.csproj": {
-                "projectPath": "D:\\Desenvolvimento\\Projetos Xamarin\\RunnigMan\\RunningApp\\RunningApp\\RunningApp.csproj"
+              "D:\\Desenvolvimento\\Projetos Xamarin\\RunningMan\\RunningMan\\RunningApp\\RunningApp.csproj": {
+                "projectPath": "D:\\Desenvolvimento\\Projetos Xamarin\\RunningMan\\RunningMan\\RunningApp\\RunningApp.csproj"
               }
             }
           }
@@ -42,6 +42,10 @@
       "frameworks": {
         "monoandroid90": {
           "dependencies": {
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.3.1, )"
@@ -54,14 +58,14 @@
         }
       }
     },
-    "D:\\Desenvolvimento\\Projetos Xamarin\\RunnigMan\\RunningApp\\RunningApp\\RunningApp.csproj": {
+    "D:\\Desenvolvimento\\Projetos Xamarin\\RunningMan\\RunningMan\\RunningApp\\RunningApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desenvolvimento\\Projetos Xamarin\\RunnigMan\\RunningApp\\RunningApp\\RunningApp.csproj",
+        "projectUniqueName": "D:\\Desenvolvimento\\Projetos Xamarin\\RunningMan\\RunningMan\\RunningApp\\RunningApp.csproj",
         "projectName": "RunningApp",
-        "projectPath": "D:\\Desenvolvimento\\Projetos Xamarin\\RunnigMan\\RunningApp\\RunningApp\\RunningApp.csproj",
+        "projectPath": "D:\\Desenvolvimento\\Projetos Xamarin\\RunningMan\\RunningMan\\RunningApp\\RunningApp.csproj",
         "packagesPath": "C:\\Users\\Geam\\.nuget\\packages\\",
-        "outputPath": "D:\\Desenvolvimento\\Projetos Xamarin\\RunnigMan\\RunningApp\\RunningApp\\obj\\",
+        "outputPath": "D:\\Desenvolvimento\\Projetos Xamarin\\RunningMan\\RunningMan\\RunningApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

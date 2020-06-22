@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e0V7bWqotM+lnPLh9m3nO9EZSC9Lipqvv7RdCridxyzyKAQtbwVYKazN1hAPjX0nPniIKMl2zt/LGF9OBskKbg==",
+  "dgSpecHash": "O9JdCDPHQ0+S2nUemesZRJb5WJPuIBU+Ig9+La4JGlehORxKbQT8JdR3usi8fSeWvp+WXOqiHecCkbl6QpzqwA==",
   "success": true,
-  "projectFilePath": "D:\\Desenvolvimento\\Projetos Xamarin\\RunnigMan\\RunningApp\\RunningApp\\RunningApp.csproj",
+  "projectFilePath": "D:\\Desenvolvimento\\Projetos Xamarin\\RunningMan\\RunningMan\\RunningApp\\RunningApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Geam\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Geam\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

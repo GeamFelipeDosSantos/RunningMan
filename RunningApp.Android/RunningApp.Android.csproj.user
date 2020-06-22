@@ -3,5 +3,6 @@
   <PropertyGroup>
     <SelectedDevice>Motorola Moto G %285S%29</SelectedDevice>
     <AndroidDesignerPreferredTheme>Theme.AppCompat.Light.NoActionBar</AndroidDesignerPreferredTheme>
+    <DefaultDevice>Nexus_5_API_28</DefaultDevice>
   </PropertyGroup>
 </Project>

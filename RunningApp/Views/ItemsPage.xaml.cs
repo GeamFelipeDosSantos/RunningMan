@@ -46,6 +46,35 @@ namespace RunningApp.Views
             if (viewModel.Items.Count == 0)
                 viewModel.IsBusy = true;
         }
+        private async void DirecionarTelaCaminhada(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Caminhada());
+        }
+        private async void DirecionarTelaTreinoLeve(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Leve());
+        }
+
+        private async void DirecionarTelaTreinoIniciante(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Iniciante());
+        }
+
+        private async void DirecionarTelaTreinoIntermediario(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Intermediario());
+        }
+
+        private async void DirecionarTelaTreinoAvancado(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Avancado());
+        }
+
+        private async void DirecionarTelaTreinoAtleta (object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Atleta());
+        }
+
         void OnButtonClicked(object sender, EventArgs e)
         {
             (sender as Button).Text = "Click me again!";
