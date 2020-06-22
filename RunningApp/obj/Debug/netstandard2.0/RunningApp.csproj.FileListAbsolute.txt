@@ -39,3 +39,4 @@ D:\Desenvolvimento\Projetos Xamarin\RunningMan\RunningMan\RunningApp\obj\Debug\n
 D:\Desenvolvimento\Projetos Xamarin\RunningMan\RunningMan\RunningApp\obj\Debug\netstandard2.0\Views\Avancado.xaml.g.cs
 D:\Desenvolvimento\Projetos Xamarin\RunningMan\RunningMan\RunningApp\obj\Debug\netstandard2.0\Views\Iniciante.xaml.g.cs
 D:\Desenvolvimento\Projetos Xamarin\RunningMan\RunningMan\RunningApp\obj\Debug\netstandard2.0\Views\Intermediario.xaml.g.cs
+D:\Desenvolvimento\Projetos Xamarin\RunningMan\RunningMan\RunningApp\obj\Debug\netstandard2.0\RunningApp.csprojAssemblyReference.cache
