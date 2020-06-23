@@ -956,3 +956,17 @@ D:\Desenvolvimento\Projetos Xamarin\RunningMan\RunningMan\RunningApp.Android\obj
 D:\Desenvolvimento\Projetos Xamarin\RunningMan\RunningMan\RunningApp.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 D:\Desenvolvimento\Projetos Xamarin\RunningMan\RunningMan\RunningApp.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 D:\Desenvolvimento\Projetos Xamarin\RunningMan\RunningMan\RunningApp.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+D:\Desenvolvimento\Projetos Xamarin\RunningMan\RunningMan\RunningApp.Android\obj\Debug\90\res\drawable\home.png
+D:\Desenvolvimento\Projetos Xamarin\RunningMan\RunningMan\RunningApp.Android\obj\Debug\90\res\mipmap-hdpi\home.png
+D:\Desenvolvimento\Projetos Xamarin\RunningMan\RunningMan\RunningApp.Android\obj\Debug\90\res\mipmap-mdpi\home.png
+D:\Desenvolvimento\Projetos Xamarin\RunningMan\RunningMan\RunningApp.Android\obj\Debug\90\res\mipmap-xhdpi\home.png
+D:\Desenvolvimento\Projetos Xamarin\RunningMan\RunningMan\RunningApp.Android\obj\Debug\90\res\mipmap-xxxhdpi\home.png
+D:\Desenvolvimento\Projetos Xamarin\RunningMan\RunningMan\RunningApp.Android\obj\Debug\90\res\mipmap-xxhdpi\home.png
+D:\Desenvolvimento\Projetos Xamarin\RunningMan\RunningMan\RunningApp.Android\obj\Debug\90\res\mipmap-anydpi-v26\home.png
+D:\Desenvolvimento\Projetos Xamarin\RunningMan\RunningMan\RunningApp.Android\obj\Debug\90\res\drawable\historico.png
+D:\Desenvolvimento\Projetos Xamarin\RunningMan\RunningMan\RunningApp.Android\obj\Debug\90\res\mipmap-anydpi-v26\historico.png
+D:\Desenvolvimento\Projetos Xamarin\RunningMan\RunningMan\RunningApp.Android\obj\Debug\90\res\mipmap-hdpi\historico.png
+D:\Desenvolvimento\Projetos Xamarin\RunningMan\RunningMan\RunningApp.Android\obj\Debug\90\res\mipmap-mdpi\historico.png
+D:\Desenvolvimento\Projetos Xamarin\RunningMan\RunningMan\RunningApp.Android\obj\Debug\90\res\mipmap-xhdpi\historico.png
+D:\Desenvolvimento\Projetos Xamarin\RunningMan\RunningMan\RunningApp.Android\obj\Debug\90\res\mipmap-xxhdpi\historico.png
+D:\Desenvolvimento\Projetos Xamarin\RunningMan\RunningMan\RunningApp.Android\obj\Debug\90\res\mipmap-xxxhdpi\historico.png

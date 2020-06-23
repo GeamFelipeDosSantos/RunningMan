@@ -24,6 +24,10 @@
                 <Setter Property="Shell.TabBarForegroundColor" Value="White"/>
                 <Setter Property="Shell.TabBarUnselectedColor" Value="Gray"/>
                 <Setter Property="Shell.TabBarTitleColor" Value="White"/>
+                <Setter Property="Shell.BackgroundColor" Value="{StaticResource NavigationPrimary}" />
+                <Setter Property="Shell.ForegroundColor" Value="Gray" />
+                <Setter Property="Shell.TitleColor" Value="Gray" />
+                
             </Style>
             <Style TargetType="TabBar" BasedOn="{StaticResource BaseStyle}" />
         </ResourceDictionary>
@@ -31,8 +35,11 @@
 
     <!-- Your Pages -->
     <TabBar>
-        <Tab Title="Início" Icon="tab_feed.png">
+        <Tab Title="Início" Icon="home.png">
             <ShellContent ContentTemplate="{DataTemplate local:ItemsPage}" />
+        </Tab>
+        <Tab Title="Histórico" Icon="historico.png">
+            <ShellContent ContentTemplate="{DataTemplate local:Historico}" />
         </Tab>
         <Tab Title="Sobre" Icon="tab_about.png">
             <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />

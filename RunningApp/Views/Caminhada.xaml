@@ -8,37 +8,16 @@
              BackgroundColor="Gray"
              Title="Caminhada">
     
-    <!--<ContentPage.ToolbarItems>
-        <ToolbarItem Text="Cancel" Clicked="Cancel_Clicked" />
-        <ToolbarItem Text="Save" Clicked="Save_Clicked" />
-    </ContentPage.ToolbarItems>-->
     
     <ContentPage.Content>
-        <!--<StackLayout Padding="10">
-            <Button Text="Caminhada" 
-                Clicked="OnButtonClicked"
-                TextColor="Gray"
-                FontSize="36"
-                BackgroundColor="Orange"
-                BorderColor="Orange"
-                BorderWidth="5"
-                CornerRadius="25"
-                WidthRequest="150"
-                HeightRequest="75"/>
-        </StackLayout>-->
+   
         <FlexLayout Direction="Column">
-
-            <!-- Header -->
-            <!--<Label Text="HEADER"
-               FontSize="Large"
-               BackgroundColor="Aqua"
-               HorizontalTextAlignment="Center" />-->
 
             <!-- Body -->
             <FlexLayout FlexLayout.Grow="1">
 
                 <!-- Content -->
-                <Label Text="MAPA"
+                <Label Text="CAMINHADA"
                    FontSize="Large"
                    BackgroundColor="white"
                    HorizontalTextAlignment="Center"
@@ -83,37 +62,20 @@
                BackgroundColor="Orange"
                HorizontalTextAlignment="Left" />
 
-            <Switch 
-               OnColor="Gray"
-               ThumbColor="Black" 
-               IsToggled="true"
-               BackgroundColor="Orange"     />
-            
-
-            <Switch x:Name="styleSwitch" 
-                    BackgroundColor="Orange" 
-                    IsToggled="true"
-                    OnColor="Gray"
-               ThumbColor="Black" />
-            <Label Text="Motivação:"
-                   BackgroundColor="Orange"
-                   TextColor="Gray"        
-                   >
-                <Label.Triggers>
-                    
-                    <DataTrigger TargetType="Label"
-                     Binding="{Binding Source={x:Reference styleSwitch}, Path=IsToggled}"
-                     Value="true">
-                    
-                        <Setter Property="FontSize"
-                    Value="Large" />
-                    </DataTrigger>
-                    
-                </Label.Triggers>
-            </Label>
+            <StackLayout Orientation="Horizontal" BackgroundColor="Orange" Spacing="0">
+                <Label Text="Motivação" FontSize="Large" TextColor="Gray" VerticalOptions="Center" />
+                <StackLayout Orientation="Horizontal" Spacing="0" HorizontalOptions="EndAndExpand">
+                    <BoxView IsVisible="{Binding GraphMode}"  WidthRequest ="20" HeightRequest="20" VerticalOptions="Center" HorizontalOptions="EndAndExpand"/>
+                    <Switch IsToggled="{Binding Options.Show_Subscription}" 
+                            OnColor="Black"
+                            ThumbColor="Black" 
+                            BackgroundColor="Orange"  
+                            HorizontalOptions="EndAndExpand"/>
+                </StackLayout>
+            </StackLayout>
 
         </FlexLayout>
-        
+
     </ContentPage.Content>
     
 </ContentPage>

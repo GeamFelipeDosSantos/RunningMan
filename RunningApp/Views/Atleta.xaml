@@ -8,24 +8,79 @@
              BackgroundColor="Gray"
              Title="Atleta">
     
-    <!--<ContentPage.ToolbarItems>
-        <ToolbarItem Text="Cancel" Clicked="Cancel_Clicked" />
-        <ToolbarItem Text="Save" Clicked="Save_Clicked" />
-    </ContentPage.ToolbarItems>-->
     
     <ContentPage.Content>
-        <StackLayout Padding="10">
-            <Button Text="Atleta" 
-                Clicked="OnButtonClicked"
-                TextColor="Gray"
-                FontSize="36"
-                BackgroundColor="Orange"
-                BorderColor="Orange"
-                BorderWidth="5"
-                CornerRadius="25"
-                WidthRequest="150"
-                HeightRequest="75"/>
-        </StackLayout>
+  
+        <FlexLayout Direction="Column">
+
+            <!-- Header -->
+            <!--<Label Text="HEADER"
+               FontSize="Large"
+               BackgroundColor="Aqua"
+               HorizontalTextAlignment="Center" />-->
+
+            <!-- Body -->
+            <FlexLayout FlexLayout.Grow="1">
+
+                <!-- Content -->
+                <Label Text="ATLETA"
+                   FontSize="Large"
+                   BackgroundColor="white"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"
+                   FlexLayout.Grow="1" />
+
+                <!-- Navigation items-->
+                <!--<BoxView FlexLayout.Basis="50"
+                     FlexLayout.Order="-1"
+                     Color="Blue" />-->
+
+                <!-- Aside items -->
+                <!--<BoxView FlexLayout.Basis="50"
+                     Color="Green" />-->
+
+            </FlexLayout>
+
+            <!-- Footer -->
+            <Label Text="Distância: 1.3Km"
+               FontSize="Large"
+               TextColor="Gray"    
+               BackgroundColor="Orange"
+               HorizontalTextAlignment="Left"/>
+            <Label Text="Tempo: 17:26"
+               FontSize="Large"
+               TextColor="Gray"    
+               BackgroundColor="Orange"
+               HorizontalTextAlignment="Left" />
+            <Label Text="Passos: 1778"
+               FontSize="Large"
+               TextColor="Gray"    
+               BackgroundColor="Orange"
+               HorizontalTextAlignment="Left" />
+            <Label Text="Velocidade: 4km/h"
+               FontSize="Large"
+               TextColor="Gray"    
+               BackgroundColor="Orange"
+               HorizontalTextAlignment="Left" />
+            <Label Text="Gasto calórico: 103kcal"
+               FontSize="Large"
+               TextColor="Gray"        
+               BackgroundColor="Orange"
+               HorizontalTextAlignment="Left" />
+
+            <StackLayout Orientation="Horizontal" BackgroundColor="Orange" Spacing="0">
+                <Label Text="Motivação" FontSize="Large" TextColor="Gray" VerticalOptions="Center" />
+                <StackLayout Orientation="Horizontal" Spacing="0" HorizontalOptions="EndAndExpand">
+                    <BoxView IsVisible="{Binding GraphMode}"  WidthRequest ="20" HeightRequest="20" VerticalOptions="Center" HorizontalOptions="EndAndExpand"/>
+                    <Switch IsToggled="{Binding Options.Show_Subscription}" 
+                            OnColor="Black"
+                            ThumbColor="Black" 
+                            BackgroundColor="Orange"  
+                            HorizontalOptions="EndAndExpand"/>
+                </StackLayout>
+            </StackLayout>
+
+        </FlexLayout>
     </ContentPage.Content>
     
 </ContentPage>

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="RunningApp.Views.Historico"
+             BackgroundColor="Gray"
+             Title="Histórico">
+
+        <ContentPage.Content>
+
+        <FlexLayout Direction="Column" Padding="20,10,10,10">
+
+            <!-- Header -->
+            <StackLayout Padding= "0,10,0,0" >
+            </StackLayout>
+
+            <!-- Body -->
+            <FlexLayout FlexLayout.Grow="1" BackgroundColor="Gray">
+
+                <!-- Content -->
+
+                <!--Curved stack-->
+                <Frame CornerRadius="25" 
+                       HorizontalOptions="Center" 
+                       VerticalOptions="Start"
+                       
+                       BackgroundColor="Orange"
+                       
+                       Padding="0,25,80,40">
+
+                    <StackLayout >
+                        <Label Text="Quilometragem Mensal: 352 Km"
+                           FontSize="21"
+                           TextColor="Black"    
+                           BackgroundColor="Orange"
+                           HorizontalTextAlignment="Center"
+                           VerticalTextAlignment="Center"
+                           FlexLayout.Grow="1" 
+                           Padding="0,10,0,5"/>
+
+                        <Label Text="Quilometragem Semanal: 26 Km"
+                           FontSize="21"
+                           TextColor="Black"        
+                           BackgroundColor="Orange"
+                           HorizontalTextAlignment="Center"
+                           VerticalTextAlignment="Center"
+                           FlexLayout.Grow="1" 
+                           Padding="0,30,0,5"/>
+
+                        <Label Text="Gasto calórico Mensal: 523"
+                           FontSize="21"
+                           TextColor="Black"        
+                           BackgroundColor="Orange"
+                           HorizontalTextAlignment="Center"
+                           VerticalTextAlignment="Center"
+                           FlexLayout.Grow="1" 
+                           Padding="0,30,0,5"/>
+
+                        <Label Text="Gasto calórico semanal: 86 kcal"
+                           FontSize="21"
+                           TextColor="Black"        
+                           BackgroundColor="Orange"
+                           HorizontalTextAlignment="Center"
+                           VerticalTextAlignment="Center"
+                           FlexLayout.Grow="1" 
+                           Padding="0,30,-6,5"/>
+                    </StackLayout>
+                </Frame>
+
+
+
+                <!-- Navigation items-->
+
+                <!-- Aside items -->
+
+            </FlexLayout>
+
+            <!-- Footer -->
+            <Label Text=""
+               FontSize="21"
+               BackgroundColor="Gray"
+               HorizontalTextAlignment="Center" />
+
+        </FlexLayout>
+    </ContentPage.Content>
+
+</ContentPage>
