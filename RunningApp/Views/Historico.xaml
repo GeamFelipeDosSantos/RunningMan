@@ -9,81 +9,108 @@
              Title="Histórico">
 
         <ContentPage.Content>
-
-        <FlexLayout Direction="Column" Padding="20,10,10,10">
-
-            <!-- Header -->
-            <StackLayout Padding= "0,10,0,0" >
-            </StackLayout>
-
-            <!-- Body -->
-            <FlexLayout FlexLayout.Grow="1" BackgroundColor="Gray">
-
-                <!-- Content -->
-
-                <!--Curved stack-->
-                <Frame CornerRadius="25" 
+        <StackLayout Margin="10">
+            <Frame CornerRadius="25" 
                        HorizontalOptions="Center" 
                        VerticalOptions="Start"
                        
                        BackgroundColor="Orange"
                        
-                       Padding="0,25,80,40">
+                       Padding="10,10,10,10">
+            
+                <Grid BackgroundColor="Orange"
+                  >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2.0*" />
+                <ColumnDefinition Width="5" />
+            </Grid.ColumnDefinitions>
 
-                    <StackLayout >
-                        <Label Text="Quilometragem Mensal: 352 Km"
-                           FontSize="21"
-                           TextColor="Black"    
-                           BackgroundColor="Orange"
-                           HorizontalTextAlignment="Center"
-                           VerticalTextAlignment="Center"
-                           FlexLayout.Grow="1" 
-                           Padding="0,10,0,5"/>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />                
+                
+            </Grid.RowDefinitions>
 
-                        <Label Text="Quilometragem Semanal: 26 Km"
-                           FontSize="21"
-                           TextColor="Black"        
-                           BackgroundColor="Orange"
-                           HorizontalTextAlignment="Center"
-                           VerticalTextAlignment="Center"
-                           FlexLayout.Grow="1" 
-                           Padding="0,30,0,5"/>
+            <Label Grid.Row="1"
+                       Text="Quilometragem Mensal:"
+                       FontSize="Large"
+                       TextColor="Black"    
+                       BackgroundColor="Orange"
+                       HorizontalTextAlignment="Left" 
+                       VerticalTextAlignment="Center" />
 
-                        <Label Text="Gasto calórico Mensal: 523"
-                           FontSize="21"
-                           TextColor="Black"        
-                           BackgroundColor="Orange"
-                           HorizontalTextAlignment="Center"
-                           VerticalTextAlignment="Center"
-                           FlexLayout.Grow="1" 
-                           Padding="0,30,0,5"/>
+            <Label Grid.Row="1"
+                       Grid.Column="2"
+                       Text="352 Km"
+                       FontSize="Large"
+                       FontAttributes="Bold"  
+                       TextColor="Black"    
+                       BackgroundColor="Orange"
+                       HorizontalTextAlignment="Left" 
+                       VerticalTextAlignment="Center" />
+                    
+            <Label Grid.Row="2"
+                       Text="Quilometragem Semanal:"
+                       FontSize="Large"
+                       TextColor="Black"    
+                       BackgroundColor="Orange"
+                       HorizontalTextAlignment="Left" 
+                       VerticalTextAlignment="Center" />
 
-                        <Label Text="Gasto calórico semanal: 86 kcal"
-                           FontSize="21"
-                           TextColor="Black"        
-                           BackgroundColor="Orange"
-                           HorizontalTextAlignment="Center"
-                           VerticalTextAlignment="Center"
-                           FlexLayout.Grow="1" 
-                           Padding="0,30,-6,5"/>
-                    </StackLayout>
-                </Frame>
+            <Label Grid.Row="2"
+                       Grid.Column="2"
+                       Text=" 26 Km"
+                       FontSize="Large"
+                       FontAttributes="Bold"
+                       TextColor="Black"    
+                       BackgroundColor="Orange"
+                       HorizontalTextAlignment="Left" 
+                       VerticalTextAlignment="Center" />
 
+            <Label Grid.Row="3"
+                       Text="Gasto calórico Mensal:"
+                       FontSize="Large"
+                       TextColor="Black"    
+                       BackgroundColor="Orange"
+                       HorizontalTextAlignment="Left" 
+                       VerticalTextAlignment="Center" />
 
+            <Label Grid.Row="3"
+                       Grid.Column="2"
+                       Text="523 kcal"
+                       FontSize="Large"
+                       FontAttributes="Bold"
+                       TextColor="Black"    
+                       BackgroundColor="Orange"
+                       HorizontalTextAlignment="Left" 
+                       VerticalTextAlignment="Center" />
 
-                <!-- Navigation items-->
+            <Label Grid.Row="4"
+                       Text="Gasto calórico semanal:"
+                       FontSize="Large"
+                       TextColor="Black"    
+                       BackgroundColor="Orange"
+                       HorizontalTextAlignment="Left" 
+                       VerticalTextAlignment="Center" />
 
-                <!-- Aside items -->
+            <Label Grid.Row="4"
+                       Grid.Column="2"
+                       Text="86 kcal"
+                       FontSize="Large"
+                       FontAttributes="Bold"
+                       TextColor="Black"    
+                       BackgroundColor="Orange"
+                       HorizontalTextAlignment="Left" 
+                       VerticalTextAlignment="Center" />
 
-            </FlexLayout>
+            
+        </Grid>
+            </Frame>
 
-            <!-- Footer -->
-            <Label Text=""
-               FontSize="21"
-               BackgroundColor="Gray"
-               HorizontalTextAlignment="Center" />
-
-        </FlexLayout>
+        </StackLayout>
     </ContentPage.Content>
 
 </ContentPage>
