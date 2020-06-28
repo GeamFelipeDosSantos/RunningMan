@@ -13,10 +13,8 @@
             <Frame CornerRadius="25" 
                        HorizontalOptions="Center" 
                        VerticalOptions="Start"
-                       
                        BackgroundColor="Orange"
-                       
-                       Padding="10,10,10,10">
+                       Padding="10,40,10,100">
             
                 <Grid BackgroundColor="Orange"
                   >
@@ -45,7 +43,7 @@
             <Label Grid.Row="1"
                        Grid.Column="2"
                        Text="352 Km"
-                       FontSize="Large"
+                       FontSize="30"
                        FontAttributes="Bold"  
                        TextColor="Black"    
                        BackgroundColor="Orange"
@@ -63,7 +61,7 @@
             <Label Grid.Row="2"
                        Grid.Column="2"
                        Text=" 26 Km"
-                       FontSize="Large"
+                       FontSize="30"
                        FontAttributes="Bold"
                        TextColor="Black"    
                        BackgroundColor="Orange"
@@ -81,7 +79,7 @@
             <Label Grid.Row="3"
                        Grid.Column="2"
                        Text="523 kcal"
-                       FontSize="Large"
+                       FontSize="30"
                        FontAttributes="Bold"
                        TextColor="Black"    
                        BackgroundColor="Orange"
@@ -99,7 +97,7 @@
             <Label Grid.Row="4"
                        Grid.Column="2"
                        Text="86 kcal"
-                       FontSize="Large"
+                       FontSize="30"
                        FontAttributes="Bold"
                        TextColor="Black"    
                        BackgroundColor="Orange"
