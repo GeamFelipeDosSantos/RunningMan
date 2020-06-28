@@ -62,7 +62,7 @@
                         <FormattedString>
                             <FormattedString.Spans>
                                 <Span Text="Matéria:" />
-                                <Span Text="Programação para dispositivos móveis." FontAttributes="Bold" />
+                                <Span Text="Programação para dispositivos móveis II." FontAttributes="Bold" />
                             </FormattedString.Spans>
                         </FormattedString>
                     </Label.FormattedText>

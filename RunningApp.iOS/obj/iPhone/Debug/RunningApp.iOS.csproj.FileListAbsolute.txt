@@ -57,3 +57,5 @@ D:\Desenvolvimento\Projetos Xamarin\RunningMan\RunningMan\RunningApp.iOS\obj\iPh
 D:\Desenvolvimento\Projetos Xamarin\RunningMan\RunningMan\RunningApp.iOS\obj\iPhone\Debug\RunningApp.iOS.csproj.CopyComplete
 D:\Desenvolvimento\Projetos Xamarin\RunningMan\RunningMan\RunningApp.iOS\obj\iPhone\Debug\RunningApp.iOS.exe
 D:\Desenvolvimento\Projetos Xamarin\RunningMan\RunningMan\RunningApp.iOS\obj\iPhone\Debug\RunningApp.iOS.pdb
+D:\Desenvolvimento\Projetos Xamarin\RunningMan\RunningMan\RunningApp.iOS\bin\iPhone\Debug\Xamarin.Forms.Maps.dll
+D:\Desenvolvimento\Projetos Xamarin\RunningMan\RunningMan\RunningApp.iOS\bin\iPhone\Debug\Xamarin.Forms.Maps.iOS.dll

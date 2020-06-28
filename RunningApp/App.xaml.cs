@@ -27,6 +27,9 @@ namespace RunningApp
 
         protected override void OnResume()
         {
+           
         }
+
+
     }
 }

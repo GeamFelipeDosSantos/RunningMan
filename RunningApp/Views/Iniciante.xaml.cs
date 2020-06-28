@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Xamarin.Forms.Maps;
 
 using RunningApp.Models;
 
@@ -42,6 +43,11 @@ namespace RunningApp.Views
         void OnButtonClicked(object sender, EventArgs e)
         {
             (sender as Button).Text = "Click me again!";
+        }
+
+        void OnMapClicked(object sender, MapClickedEventArgs e)
+        {
+            // Debug.WriteLine($"MapClick: {e.Position.Latitude}, {e.Position.Longitude}");
         }
     }
 }

@@ -34,10 +34,7 @@ namespace RunningApp.Views
             await Navigation.PushAsync(new ItemDetailPage(new ItemDetailViewModel(item)));
         }
 
-        async void AddItem_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushModalAsync(new NavigationPage(new NewItemPage()));
-        }
+        
 
         protected override void OnAppearing()
         {
@@ -78,6 +75,14 @@ namespace RunningApp.Views
         void OnButtonClicked(object sender, EventArgs e)
         {
             (sender as Button).Text = "Click me again!";
+        }
+
+        void EncerrarApp(object sender, EventArgs e)
+        {
+            //Fechar a aplicação
+            //this.FinishAffinity();
+            System.Environment.Exit(0);
+            
         }
     }
     

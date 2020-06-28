@@ -10,9 +10,10 @@
              x:Name="BrowseItemsPage">
 
     <ContentPage.ToolbarItems>
+        
         <ToolbarItem Text="Sair" 
-                     
-                     />
+                     Clicked="EncerrarApp"/>
+        
     </ContentPage.ToolbarItems>
 
     <StackLayout Padding="10">

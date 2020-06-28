@@ -11,7 +11,8 @@
         "dependencies": {
           "NETStandard.Library": "2.0.3",
           "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.5.0.495"
+          "Xamarin.Forms": "4.7.0.968",
+          "Xamarin.Forms.Maps": "4.7.0.968"
         },
         "runtime": {
           "RunningApp.dll": {}
@@ -42,19 +43,30 @@
           }
         }
       },
-      "Xamarin.Forms/4.5.0.495": {
+      "Xamarin.Forms/4.7.0.968": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.5.0.198"
+            "fileVersion": "4.7.0.385"
           },
           "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.5.0.198"
+            "fileVersion": "4.7.0.385"
           },
           "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.5.0.198"
+            "fileVersion": "4.7.0.385"
+          }
+        }
+      },
+      "Xamarin.Forms.Maps/4.7.0.968": {
+        "dependencies": {
+          "Xamarin.Forms": "4.7.0.968"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Maps.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "4.7.0.385"
           }
         }
       }
@@ -94,12 +106,19 @@
       "path": "xamarin.essentials/1.3.1",
       "hashPath": "xamarin.essentials.1.3.1.nupkg.sha512"
     },
-    "Xamarin.Forms/4.5.0.495": {
+    "Xamarin.Forms/4.7.0.968": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ipufpdjFh+YHHw1E3I+8FIQWk1KmlB77PSHg32YRnuBSCUNEHjoMnvEmY9YCK4DTWfOenV0HHZVvGjB9qDtI9w==",
-      "path": "xamarin.forms/4.5.0.495",
-      "hashPath": "xamarin.forms.4.5.0.495.nupkg.sha512"
+      "sha512": "sha512-VvHI/VXyDZcCLYXywh9A8gVtldD8XCLR8hujZVdlKGh87HIXAUW0b+uLFsvyMB8COwNce0w56ycgD/tXtLgFRA==",
+      "path": "xamarin.forms/4.7.0.968",
+      "hashPath": "xamarin.forms.4.7.0.968.nupkg.sha512"
+    },
+    "Xamarin.Forms.Maps/4.7.0.968": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TKi35iPTFNFuF+Jqa/Qlvl/3d3JalSlecQN0wrf+iNO2tTQm+MdedMnIc19Dmtrbjprs6N/F7kRRehAe3+z7hw==",
+      "path": "xamarin.forms.maps/4.7.0.968",
+      "hashPath": "xamarin.forms.maps.4.7.0.968.nupkg.sha512"
     }
   }
 }
