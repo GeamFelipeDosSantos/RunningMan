@@ -40,3 +40,27 @@ D:\Desenvolvimento\Projetos Xamarin\RunningMan\RunningMan\RunningApp\obj\Debug\n
 D:\Desenvolvimento\Projetos Xamarin\RunningMan\RunningMan\RunningApp\obj\Debug\netstandard2.0\RunningApp.csprojAssemblyReference.cache
 D:\Desenvolvimento\Projetos Xamarin\RunningMan\RunningMan\RunningApp\obj\Debug\netstandard2.0\RunningApp.csproj.CoreCompileInputs.cache
 D:\Desenvolvimento\Projetos Xamarin\RunningMan\RunningMan\RunningApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\BoS\Desktop\RunningMan\RunningApp\bin\Debug\netstandard2.0\RunningApp.deps.json
+C:\Users\BoS\Desktop\RunningMan\RunningApp\bin\Debug\netstandard2.0\RunningApp.dll
+C:\Users\BoS\Desktop\RunningMan\RunningApp\bin\Debug\netstandard2.0\ref\RunningApp.dll
+C:\Users\BoS\Desktop\RunningMan\RunningApp\bin\Debug\netstandard2.0\RunningApp.pdb
+C:\Users\BoS\Desktop\RunningMan\RunningApp\obj\Debug\netstandard2.0\RunningApp.csprojAssemblyReference.cache
+C:\Users\BoS\Desktop\RunningMan\RunningApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\BoS\Desktop\RunningMan\RunningApp\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\BoS\Desktop\RunningMan\RunningApp\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\BoS\Desktop\RunningMan\RunningApp\obj\Debug\netstandard2.0\Views\Atleta.xaml.g.cs
+C:\Users\BoS\Desktop\RunningMan\RunningApp\obj\Debug\netstandard2.0\Views\Avancado.xaml.g.cs
+C:\Users\BoS\Desktop\RunningMan\RunningApp\obj\Debug\netstandard2.0\Views\Caminhada.xaml.g.cs
+C:\Users\BoS\Desktop\RunningMan\RunningApp\obj\Debug\netstandard2.0\Views\Historico.xaml.g.cs
+C:\Users\BoS\Desktop\RunningMan\RunningApp\obj\Debug\netstandard2.0\Views\Iniciante.xaml.g.cs
+C:\Users\BoS\Desktop\RunningMan\RunningApp\obj\Debug\netstandard2.0\Views\Intermediario.xaml.g.cs
+C:\Users\BoS\Desktop\RunningMan\RunningApp\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\BoS\Desktop\RunningMan\RunningApp\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\BoS\Desktop\RunningMan\RunningApp\obj\Debug\netstandard2.0\Views\Leve.xaml.g.cs
+C:\Users\BoS\Desktop\RunningMan\RunningApp\obj\Debug\netstandard2.0\RunningApp.AssemblyInfoInputs.cache
+C:\Users\BoS\Desktop\RunningMan\RunningApp\obj\Debug\netstandard2.0\RunningApp.AssemblyInfo.cs
+C:\Users\BoS\Desktop\RunningMan\RunningApp\obj\Debug\netstandard2.0\RunningApp.dll
+C:\Users\BoS\Desktop\RunningMan\RunningApp\obj\Debug\netstandard2.0\ref\RunningApp.dll
+C:\Users\BoS\Desktop\RunningMan\RunningApp\obj\Debug\netstandard2.0\RunningApp.pdb
+C:\Users\BoS\Desktop\RunningMan\RunningApp\obj\Debug\netstandard2.0\RunningApp.csproj.CoreCompileInputs.cache
+C:\Users\BoS\Desktop\RunningMan\RunningApp\obj\Debug\netstandard2.0\XamlC.stamp

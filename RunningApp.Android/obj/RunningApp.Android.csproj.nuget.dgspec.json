@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Desenvolvimento\\Projetos Xamarin\\RunningMan\\RunningMan\\RunningApp.Android\\RunningApp.Android.csproj": {}
+    "C:\\Users\\BoS\\Desktop\\RunningMan\\RunningApp.Android\\RunningApp.Android.csproj": {}
   },
   "projects": {
-    "D:\\Desenvolvimento\\Projetos Xamarin\\RunningMan\\RunningMan\\RunningApp.Android\\RunningApp.Android.csproj": {
+    "C:\\Users\\BoS\\Desktop\\RunningMan\\RunningApp.Android\\RunningApp.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desenvolvimento\\Projetos Xamarin\\RunningMan\\RunningMan\\RunningApp.Android\\RunningApp.Android.csproj",
+        "projectUniqueName": "C:\\Users\\BoS\\Desktop\\RunningMan\\RunningApp.Android\\RunningApp.Android.csproj",
         "projectName": "RunningApp.Android",
-        "projectPath": "D:\\Desenvolvimento\\Projetos Xamarin\\RunningMan\\RunningMan\\RunningApp.Android\\RunningApp.Android.csproj",
-        "packagesPath": "C:\\Users\\Geam\\.nuget\\packages\\",
-        "outputPath": "D:\\Desenvolvimento\\Projetos Xamarin\\RunningMan\\RunningMan\\RunningApp.Android\\obj\\",
+        "projectPath": "C:\\Users\\BoS\\Desktop\\RunningMan\\RunningApp.Android\\RunningApp.Android.csproj",
+        "packagesPath": "C:\\Users\\BoS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BoS\\Desktop\\RunningMan\\RunningApp.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Geam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BoS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "D:\\Desenvolvimento\\Projetos Xamarin\\RunningMan\\RunningMan\\RunningApp\\RunningApp.csproj": {
-                "projectPath": "D:\\Desenvolvimento\\Projetos Xamarin\\RunningMan\\RunningMan\\RunningApp\\RunningApp.csproj"
+              "C:\\Users\\BoS\\Desktop\\RunningMan\\RunningApp\\RunningApp.csproj": {
+                "projectPath": "C:\\Users\\BoS\\Desktop\\RunningMan\\RunningApp\\RunningApp.csproj"
               }
             }
           }
@@ -58,20 +58,20 @@
         }
       }
     },
-    "D:\\Desenvolvimento\\Projetos Xamarin\\RunningMan\\RunningMan\\RunningApp\\RunningApp.csproj": {
+    "C:\\Users\\BoS\\Desktop\\RunningMan\\RunningApp\\RunningApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desenvolvimento\\Projetos Xamarin\\RunningMan\\RunningMan\\RunningApp\\RunningApp.csproj",
+        "projectUniqueName": "C:\\Users\\BoS\\Desktop\\RunningMan\\RunningApp\\RunningApp.csproj",
         "projectName": "RunningApp",
-        "projectPath": "D:\\Desenvolvimento\\Projetos Xamarin\\RunningMan\\RunningMan\\RunningApp\\RunningApp.csproj",
-        "packagesPath": "C:\\Users\\Geam\\.nuget\\packages\\",
-        "outputPath": "D:\\Desenvolvimento\\Projetos Xamarin\\RunningMan\\RunningMan\\RunningApp\\obj\\",
+        "projectPath": "C:\\Users\\BoS\\Desktop\\RunningMan\\RunningApp\\RunningApp.csproj",
+        "packagesPath": "C:\\Users\\BoS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BoS\\Desktop\\RunningMan\\RunningApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Geam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BoS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -113,6 +113,10 @@
             "Xamarin.Forms.Maps": {
               "target": "Package",
               "version": "[4.7.0.968, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.7.335, )"
             }
           },
           "imports": [
@@ -125,7 +129,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,15 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "dJQm88uKD4YCsLZ1WXOcsWB4S4mpX7MJLGhJqGgsCOZHvZunaPrQHvwUffGVz9m4Ry6DwP95HzGKGFKgRTv5Og==",
+  "dgSpecHash": "QKOdOoOmicle8RyleGYUARrlBsF3VADvMpkqN2HkH8tNYHSpCYHBBsoOFP1PQ252Oxwhl0rE+vseG7LQsdG4ng==",
   "success": true,
-  "projectFilePath": "D:\\Desenvolvimento\\Projetos Xamarin\\RunningMan\\RunningMan\\RunningApp\\RunningApp.csproj",
+  "projectFilePath": "C:\\Users\\BoS\\Desktop\\RunningMan\\RunningApp\\RunningApp.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Geam\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Geam\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\Geam\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\BoS\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\BoS\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\BoS\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
+    "C:\\Users\\BoS\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
+    "C:\\Users\\BoS\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
+    "C:\\Users\\BoS\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.3\\sqlitepclraw.lib.e_sqlite3.2.0.3.nupkg.sha512",
+    "C:\\Users\\BoS\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.0.3\\sqlitepclraw.provider.e_sqlite3.2.0.3.nupkg.sha512",
+    "C:\\Users\\BoS\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\BoS\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\BoS\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\BoS\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
-    "C:\\Users\\Geam\\.nuget\\packages\\xamarin.forms\\4.7.0.968\\xamarin.forms.4.7.0.968.nupkg.sha512",
-    "C:\\Users\\Geam\\.nuget\\packages\\xamarin.forms.maps\\4.7.0.968\\xamarin.forms.maps.4.7.0.968.nupkg.sha512"
+    "C:\\Users\\BoS\\.nuget\\packages\\xamarin.forms\\4.7.0.968\\xamarin.forms.4.7.0.968.nupkg.sha512",
+    "C:\\Users\\BoS\\.nuget\\packages\\xamarin.forms.maps\\4.7.0.968\\xamarin.forms.maps.4.7.0.968.nupkg.sha512"
   ],
   "logs": []
 }

@@ -4,7 +4,10 @@
     <application android:label="RunningApp.Android">
 		<meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyBFWCPW2OPBVX39gJZZesg_jaeBiJ1jco4" />
 		<meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+		<uses-library android:name="org.apache.http.legacy" android:required="false" />
 	</application>
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 	
 </manifest>
