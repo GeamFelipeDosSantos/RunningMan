@@ -13,7 +13,7 @@
     <ContentPage.Content>
         <StackLayout Margin="10">
 
-            <maps:Map x:Name="map"
+            <maps:Map x:Name="MapView"
                       MapClicked="OnMapClicked" />
 
             <Grid BackgroundColor="Orange">

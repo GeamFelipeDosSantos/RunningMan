@@ -1589,3 +1589,5 @@ C:\Users\BoS\Desktop\RunningMan\RunningApp.Android\obj\Debug\90\android\assets\S
 C:\Users\BoS\Desktop\RunningMan\RunningApp.Android\obj\Debug\90\android\assets\System.Buffers.dll
 C:\Users\BoS\Desktop\RunningMan\RunningApp.Android\obj\Debug\90\android\assets\System.Memory.dll
 C:\Users\BoS\Desktop\RunningMan\RunningApp.Android\obj\Debug\90\android\assets\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\BoS\Desktop\RunningMan\RunningApp.Android\obj\Debug\90\android\src\crc64a0e0a82d0db9a07d\ClipboardChangeListener.java
+C:\Users\BoS\Desktop\RunningMan\RunningApp.Android\obj\Debug\90\android\src\crc64a0e0a82d0db9a07d\WebAuthenticatorCallbackActivity.java

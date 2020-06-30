@@ -4,31 +4,71 @@ using System.ComponentModel;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Xamarin.Forms.Maps;
+using Xamarin.Essentials;
+
 
 using RunningApp.Models;
+using Map = Xamarin.Forms.Maps.Map;
+using System.Threading.Tasks;
+using System.Diagnostics;
 
 namespace RunningApp.Views
 {
-    // Learn more about making custom code visible in the Xamarin.Forms previewer
-    // by visiting https://aka.ms/xamarinforms-previewer
+    
     [DesignTimeVisible(false)]
     public partial class Atleta : ContentPage
     {
         public Item Item { get; set; }
 
+        Position mapPosition;
+        Location userLocation;
+
         public Atleta()
         {
             InitializeComponent();
 
-            Item = new Item
-            {
-                Text = "Item name",
-                Description = "This is an item description."
-            };
-
             BindingContext = this;
+            
+          
         }
 
+        protected override async void OnAppearing() {
+
+            base.OnAppearing();
+            await FindUserLocation();
+
+            if (userLocation != null)
+                return;
+
+            mapPosition = new Position(userLocation.Latitude, userLocation.Longitude);
+
+
+
+            MapView.MoveToRegion(
+                MapSpan.FromCenterAndRadius(
+                    mapPosition, Distance.FromMiles(1)));
+            
+        }
+        async Task FindUserLocation()
+        {
+            try
+            {
+                var request = new GeolocationRequest(GeolocationAccuracy.Best);
+                userLocation = await Geolocation.GetLastKnownLocationAsync();
+                Debug.WriteLine(userLocation?.ToString() ?? "no location");
+                userLocation = await Geolocation.GetLocationAsync(request);
+                Debug.WriteLine(userLocation?.ToString() ?? "no location");
+            }
+            catch (FeatureNotSupportedException fnsEx) {
+                Debug.WriteLine(fnsEx);
+            }
+            catch (PermissionException pEx) {
+                Debug.WriteLine(pEx);
+            }
+            catch (Exception ex) {
+                Debug.WriteLine(ex);
+            }
+        }
         async void Save_Clicked(object sender, EventArgs e)
         {
             MessagingCenter.Send(this, "AddItem", Item);
@@ -47,7 +87,7 @@ namespace RunningApp.Views
 
         void OnMapClicked(object sender, MapClickedEventArgs e)
         {
-            // Debug.WriteLine($"MapClick: {e.Position.Latitude}, {e.Position.Longitude}");
+             // Debug.WriteLine($"MapClick: {e.Position.Latitude}, {e.Position.Longitude}");
         }
     }
 }

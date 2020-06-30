@@ -55,6 +55,8 @@ namespace RunningApp.Droid
        
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Permission[] grantResults)
         {
+            
+
             if (requestCode == RequestLocationId)
             {
                 if ((grantResults.Length == 1) && (grantResults[0] == (int)Permission.Granted))
@@ -68,6 +70,7 @@ namespace RunningApp.Droid
             }
             else
             {
+                Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
                 base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
             }
         }
