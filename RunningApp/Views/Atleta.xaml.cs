@@ -11,6 +11,7 @@ using RunningApp.Models;
 using Map = Xamarin.Forms.Maps.Map;
 using System.Threading.Tasks;
 using System.Diagnostics;
+using Xamarin.Forms.Internals;
 
 namespace RunningApp.Views
 {
@@ -28,8 +29,9 @@ namespace RunningApp.Views
             InitializeComponent();
 
             BindingContext = this;
-            
-          
+    
+  
+
         }
 
         protected override async void OnAppearing() {
@@ -37,17 +39,18 @@ namespace RunningApp.Views
             base.OnAppearing();
             await FindUserLocation();
 
-            if (userLocation != null)
-                return;
+            //if (userLocation != null)
+            //    return;
 
             mapPosition = new Position(userLocation.Latitude, userLocation.Longitude);
+            System.Console.WriteLine("DEBUG - Button Clicked!");
+            Position position = new Position(-36.9628066, -122.0194722);
+            //MapSpan mapSpan = new MapSpan(position, 0.01, 0.01);
+            //Map MapView = new Map(mapSpan);
+           // MapView.MoveToRegion(new MapSpan(position, 0.01, 0.01));
 
-
-
-            MapView.MoveToRegion(
-                MapSpan.FromCenterAndRadius(
-                    mapPosition, Distance.FromMiles(1)));
             
+
         }
         async Task FindUserLocation()
         {
@@ -55,9 +58,9 @@ namespace RunningApp.Views
             {
                 var request = new GeolocationRequest(GeolocationAccuracy.Best);
                 userLocation = await Geolocation.GetLastKnownLocationAsync();
-                Debug.WriteLine(userLocation?.ToString() ?? "no location");
+
                 userLocation = await Geolocation.GetLocationAsync(request);
-                Debug.WriteLine(userLocation?.ToString() ?? "no location");
+                Log.Warning("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", userLocation?.ToString() ?? "no location");
             }
             catch (FeatureNotSupportedException fnsEx) {
                 Debug.WriteLine(fnsEx);
@@ -68,6 +71,8 @@ namespace RunningApp.Views
             catch (Exception ex) {
                 Debug.WriteLine(ex);
             }
+            mapPosition = new Position(userLocation.Latitude, userLocation.Longitude);
+            MapView.MoveToRegion(new MapSpan(mapPosition, 0.01, 0.01));
         }
         async void Save_Clicked(object sender, EventArgs e)
         {

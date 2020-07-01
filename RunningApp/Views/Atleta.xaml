@@ -14,7 +14,8 @@
         <StackLayout Margin="10">
 
             <maps:Map x:Name="MapView"
-                      MapClicked="OnMapClicked" />
+                      MapClicked="OnMapClicked" >
+            </maps:Map>
 
             <Grid BackgroundColor="Orange">
                 <Grid.ColumnDefinitions>
