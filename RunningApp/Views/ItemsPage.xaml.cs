@@ -77,6 +77,9 @@ namespace RunningApp.Views
             (sender as Button).Text = "Click me again!";
         }
 
+        private async void CriarTreino(object sender, EventArgs e) {
+            await Navigation.PushAsync(new CriarTreino());
+        }
         void EncerrarApp(object sender, EventArgs e)
         {
             //Fechar a aplicação

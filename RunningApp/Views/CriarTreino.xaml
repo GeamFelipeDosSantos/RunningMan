@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             BackgroundColor="Gray"
+             x:Class="RunningApp.Views.CriarTreino">
+
+    <ContentPage.Content>
+        <StackLayout Margin="10">
+            <Frame CornerRadius="25" 
+                       HorizontalOptions="Center" 
+                       VerticalOptions="Start"
+                       BackgroundColor="Orange"
+                       Padding="10,40,10,100">
+
+                <Grid BackgroundColor="orange">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2.0*" />
+                        <ColumnDefinition Width="5" />
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+
+                    </Grid.RowDefinitions>
+
+                    <Label Grid.Row="1"
+                           Text="Quilometragem Mensal:"
+                           FontSize="Large"
+                           TextColor="Black"    
+                           BackgroundColor="Orange"
+                           HorizontalTextAlignment="Left" 
+                           VerticalTextAlignment="Center" />
+
+                    <Label Grid.Row="1"
+                           Grid.Column="2"
+                           Text="352 Km"
+                           FontSize="30"
+                           FontAttributes="Bold"  
+                           TextColor="Black"    
+                           BackgroundColor="Orange"
+                           HorizontalTextAlignment="Left" 
+                           VerticalTextAlignment="Center" />
+
+                    <Label Grid.Row="2"
+                           Text="Quilometragem Semanal:"
+                           FontSize="Large"
+                           TextColor="Black"    
+                           BackgroundColor="Orange"
+                           HorizontalTextAlignment="Left" 
+                           VerticalTextAlignment="Center" />
+
+                    <Label Grid.Row="2"
+                           Grid.Column="2"
+                           Text=" 26 Km"
+                           FontSize="30"
+                           FontAttributes="Bold"
+                           TextColor="Black"    
+                           BackgroundColor="Orange"
+                           HorizontalTextAlignment="Left" 
+                           VerticalTextAlignment="Center" />
+
+                    <Label Grid.Row="3"
+                           Text="Gasto calórico Mensal:"
+                           FontSize="Large"
+                           TextColor="Black"    
+                           BackgroundColor="Orange"
+                           HorizontalTextAlignment="Left" 
+                           VerticalTextAlignment="Center" />
+
+                    <Label Grid.Row="3"
+                           Grid.Column="2"
+                           Text="523 kcal"
+                           FontSize="30"
+                           FontAttributes="Bold"
+                           TextColor="Black"    
+                           BackgroundColor="Orange"
+                           HorizontalTextAlignment="Left" 
+                           VerticalTextAlignment="Center" />
+
+                    <Label Grid.Row="4"
+                           Text="Gasto calórico semanal:"
+                           FontSize="Large"
+                           TextColor="Black"    
+                           BackgroundColor="Orange"
+                           HorizontalTextAlignment="Left" 
+                           VerticalTextAlignment="Center" />
+
+                    <Label Grid.Row="4"
+                           Grid.Column="2"
+                           Text="86 kcal"
+                           FontSize="30"
+                           FontAttributes="Bold"
+                           TextColor="Black"    
+                           BackgroundColor="Orange"
+                           HorizontalTextAlignment="Left" 
+                           VerticalTextAlignment="Center" />
+
+
+                </Grid>
+            </Frame>
+
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>

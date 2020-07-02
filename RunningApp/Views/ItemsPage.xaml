@@ -13,7 +13,10 @@
         
         <ToolbarItem Text="Sair" 
                      Clicked="EncerrarApp"/>
+        <ToolbarItem Text="Criar treino" 
+                     Clicked="CriarTreino"/>
         
+     
     </ContentPage.ToolbarItems>
 
     <StackLayout Padding="10">
