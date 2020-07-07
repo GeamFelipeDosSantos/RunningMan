@@ -62,7 +62,7 @@ C:\Users\BoS\Desktop\RunningMan\RunningApp\obj\Debug\netstandard2.0\RunningApp.A
 C:\Users\BoS\Desktop\RunningMan\RunningApp\obj\Debug\netstandard2.0\RunningApp.dll
 C:\Users\BoS\Desktop\RunningMan\RunningApp\obj\Debug\netstandard2.0\ref\RunningApp.dll
 C:\Users\BoS\Desktop\RunningMan\RunningApp\obj\Debug\netstandard2.0\RunningApp.pdb
-C:\Users\BoS\Desktop\RunningMan\RunningApp\obj\Debug\netstandard2.0\RunningApp.csproj.CoreCompileInputs.cache
-C:\Users\BoS\Desktop\RunningMan\RunningApp\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\BoS\Desktop\RunningMan\RunningApp\obj\Debug\netstandard2.0\Views\AtletaView.xaml.g.cs
 C:\Users\BoS\Desktop\RunningMan\RunningApp\obj\Debug\netstandard2.0\Views\CriarTreino.xaml.g.cs
+C:\Users\BoS\Desktop\RunningMan\RunningApp\obj\Debug\netstandard2.0\RunningApp.csproj.CoreCompileInputs.cache
+C:\Users\BoS\Desktop\RunningMan\RunningApp\obj\Debug\netstandard2.0\XamlC.stamp

@@ -4,8 +4,10 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "RunningApp.Android.dll" comes first in this list. */
 		"RunningApp.Android.dll",
 		"FormsViewGroup.dll",
+		"Newtonsoft.Json.dll",
 		"RunningApp.dll",
 		"SQLite-net.dll",
+		"SQLiteNetExtensions.dll",
 		"SQLitePCLRaw.batteries_v2.dll",
 		"SQLitePCLRaw.core.dll",
 		"SQLitePCLRaw.lib.e_sqlite3.android.dll",

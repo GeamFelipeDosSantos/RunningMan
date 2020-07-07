@@ -8,101 +8,94 @@
              x:Class="RunningApp.Views.CriarTreino">
 
     <ContentPage.Content>
-        <StackLayout Margin="10">
-            <Frame CornerRadius="25" 
+        <StackLayout Margin="10"
+                     HorizontalOptions="CenterAndExpand">
+            <Frame CornerRadius="15" 
                        HorizontalOptions="Center" 
                        VerticalOptions="Start"
                        BackgroundColor="Orange"
-                       Padding="10,40,10,100">
+                       >
 
                 <Grid BackgroundColor="orange">
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="2.0*" />
-                        <ColumnDefinition Width="5" />
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+
                     </Grid.ColumnDefinitions>
 
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="Auto" />
-                        <RowDefinition Height="Auto" />
-                        <RowDefinition Height="Auto" />
-                        <RowDefinition Height="Auto" />
-                        <RowDefinition Height="Auto" />
-
+                        <RowDefinition  />
+                        <RowDefinition  />
+                        <RowDefinition  />
+                        <RowDefinition  />
+                        <RowDefinition  />
+                        <RowDefinition  />
                     </Grid.RowDefinitions>
+                    <!--1-->
+                    <Label Text="Duração da Atividade(minutos)"
+                           HorizontalOptions="CenterAndExpand"
+                           Grid.ColumnSpan="4"/>
 
-                    <Label Grid.Row="1"
-                           Text="Quilometragem Mensal:"
-                           FontSize="Large"
-                           TextColor="Black"    
-                           BackgroundColor="Orange"
-                           HorizontalTextAlignment="Left" 
-                           VerticalTextAlignment="Center" />
+                    
+                    <!--2-->
+                    <Slider Maximum="360"
+                            Grid.Row="2"
+                            Grid.ColumnSpan="3"
+                            ValueChanged="OnSliderDuracaoValueChanged" />
+                    
+                    <Label x:Name="_displayLabel"
+                            Grid.Row="2" Grid.Column="3"
+                            Text="1"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center"
+                            BackgroundColor="Gray"
+                            Padding="10"
+                            HorizontalTextAlignment="Center"
+                            />
+                    
+                    <!--3-->
+                    <Picker x:Name="picker"
+                            Grid.Row="3"
+                            Grid.ColumnSpan="4"
+                            Title="Selecione a atividade"
+                            TitleColor="Black">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Caminhada</x:String>
+                                <x:String>Corrida</x:String>
+                                
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                    
+                    <!--4-->
+                    <Label Text="Velocidade"
+                           HorizontalOptions="Center"
+                           TextColor="black"
+                           Grid.Row="4" Grid.ColumnSpan="4"/>
+                            
+                    <!--5-->
+                    <Slider Maximum="360"
+                            Grid.Row="5" Grid.ColumnSpan="3"
+                            ValueChanged="OnSliderVelocidadeValueChanged" />
 
-                    <Label Grid.Row="1"
-                           Grid.Column="2"
-                           Text="352 Km"
-                           FontSize="30"
-                           FontAttributes="Bold"  
-                           TextColor="Black"    
-                           BackgroundColor="Orange"
-                           HorizontalTextAlignment="Left" 
-                           VerticalTextAlignment="Center" />
-
-                    <Label Grid.Row="2"
-                           Text="Quilometragem Semanal:"
-                           FontSize="Large"
-                           TextColor="Black"    
-                           BackgroundColor="Orange"
-                           HorizontalTextAlignment="Left" 
-                           VerticalTextAlignment="Center" />
-
-                    <Label Grid.Row="2"
-                           Grid.Column="2"
-                           Text=" 26 Km"
-                           FontSize="30"
-                           FontAttributes="Bold"
-                           TextColor="Black"    
-                           BackgroundColor="Orange"
-                           HorizontalTextAlignment="Left" 
-                           VerticalTextAlignment="Center" />
-
-                    <Label Grid.Row="3"
-                           Text="Gasto calórico Mensal:"
-                           FontSize="Large"
-                           TextColor="Black"    
-                           BackgroundColor="Orange"
-                           HorizontalTextAlignment="Left" 
-                           VerticalTextAlignment="Center" />
-
-                    <Label Grid.Row="3"
-                           Grid.Column="2"
-                           Text="523 kcal"
-                           FontSize="30"
-                           FontAttributes="Bold"
-                           TextColor="Black"    
-                           BackgroundColor="Orange"
-                           HorizontalTextAlignment="Left" 
-                           VerticalTextAlignment="Center" />
-
-                    <Label Grid.Row="4"
-                           Text="Gasto calórico semanal:"
-                           FontSize="Large"
-                           TextColor="Black"    
-                           BackgroundColor="Orange"
-                           HorizontalTextAlignment="Left" 
-                           VerticalTextAlignment="Center" />
-
-                    <Label Grid.Row="4"
-                           Grid.Column="2"
-                           Text="86 kcal"
-                           FontSize="30"
-                           FontAttributes="Bold"
-                           TextColor="Black"    
-                           BackgroundColor="Orange"
-                           HorizontalTextAlignment="Left" 
-                           VerticalTextAlignment="Center" />
-
-
+                    <Label x:Name="_displayLabel2"
+                            Grid.Row="5" Grid.Column="3"
+                            Text="1"
+                            HorizontalOptions="Center"
+                            BackgroundColor="Gray"
+                            Padding="10"
+                            VerticalOptions="CenterAndExpand" />
+                    
+                    <Button Text="+"
+                            TextColor="Black"
+                            BackgroundColor="SlateGray"
+                            HorizontalOptions="CenterAndExpand"
+                            Grid.ColumnSpan="4"
+                            Grid.Row="6" />
+                        
                 </Grid>
             </Frame>
 

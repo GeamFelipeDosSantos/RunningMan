@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "eDhOlbfuq1hhj5P8BNFZAaegX0jh5XAXLYsA5gXD54iSdYvU4XUPM3PWaaoPkyGDxJCU6gL0kF8ukVhkb4leCw==",
+  "dgSpecHash": "c6dHvawXuP6y3GZoB/pwIweBCww+RCiYb6EhHMYCkMAlPzTTa2t5e7xQAZmjVc6yD1GA1Dua2VzsyQA52bjc0Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\BoS\\Desktop\\RunningMan\\RunningApp.iOS\\RunningApp.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\BoS\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\BoS\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\BoS\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
     "C:\\Users\\BoS\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
+    "C:\\Users\\BoS\\.nuget\\packages\\sqlitenetextensions\\2.1.0\\sqlitenetextensions.2.1.0.nupkg.sha512",
     "C:\\Users\\BoS\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
     "C:\\Users\\BoS\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
     "C:\\Users\\BoS\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.3\\sqlitepclraw.provider.dynamic_cdecl.2.0.3.nupkg.sha512",

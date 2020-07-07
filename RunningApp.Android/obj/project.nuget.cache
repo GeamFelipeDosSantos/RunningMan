@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "zOVhEiu4hn5OwB1uKmMX9w8DZEKhqn81RXYM5z7FVvv8J6DN0e8RjcvN6mdX3j0NaCSP6CS+j3CKrw27K7TusA==",
+  "dgSpecHash": "4Fp1i2SvwIeM2IhnpyAGkRPOc2CojmB/d3+N8+NKQyt0GwCusZVac1Jc8rt2uAga5d5HgwNDzVEtwAsQOrVDCw==",
   "success": true,
   "projectFilePath": "C:\\Users\\BoS\\Desktop\\RunningMan\\RunningApp.Android\\RunningApp.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\BoS\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\BoS\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\BoS\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
     "C:\\Users\\BoS\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
+    "C:\\Users\\BoS\\.nuget\\packages\\sqlitenetextensions\\2.1.0\\sqlitenetextensions.2.1.0.nupkg.sha512",
     "C:\\Users\\BoS\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
     "C:\\Users\\BoS\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
     "C:\\Users\\BoS\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3.android\\2.0.3\\sqlitepclraw.lib.e_sqlite3.android.2.0.3.nupkg.sha512",

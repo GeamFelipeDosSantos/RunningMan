@@ -16,5 +16,16 @@ namespace RunningApp.Views
         {
             InitializeComponent();
         }
+        void OnSliderDuracaoValueChanged(object sender, ValueChangedEventArgs e)
+        {
+            int value = (int) e.NewValue;
+            _displayLabel.Text = string.Format("{0}", value);
+        }
+        void OnSliderVelocidadeValueChanged(object sender, ValueChangedEventArgs e)
+        {
+            int value = (int)e.NewValue;
+            _displayLabel2.Text = string.Format("{0}", value);
+        }
+
     }
 }

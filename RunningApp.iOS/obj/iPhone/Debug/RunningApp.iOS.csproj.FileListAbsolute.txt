@@ -128,3 +128,6 @@ C:\Users\BoS\Desktop\RunningMan\RunningApp.iOS\bin\iPhone\Debug\SQLitePCLRaw.pro
 C:\Users\BoS\Desktop\RunningMan\RunningApp.iOS\bin\iPhone\Debug\System.Buffers.dll
 C:\Users\BoS\Desktop\RunningMan\RunningApp.iOS\bin\iPhone\Debug\System.Memory.dll
 C:\Users\BoS\Desktop\RunningMan\RunningApp.iOS\bin\iPhone\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\BoS\Desktop\RunningMan\RunningApp.iOS\bin\iPhone\Debug\Newtonsoft.Json.dll
+C:\Users\BoS\Desktop\RunningMan\RunningApp.iOS\bin\iPhone\Debug\SQLiteNetExtensions.dll
+C:\Users\BoS\Desktop\RunningMan\RunningApp.iOS\bin\iPhone\Debug\SQLiteNetExtensions.pdb
