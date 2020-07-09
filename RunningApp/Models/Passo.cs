@@ -15,7 +15,7 @@ namespace RunningApp.Models
 
         public int duracao { get; set; }
         public string tipo { get; set; }
-        public string velocidade { get; set; }
+        public int velocidade { get; set; }
 
         [ManyToOne]
         public Treino treino { get; set; }

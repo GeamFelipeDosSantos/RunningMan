@@ -9,6 +9,7 @@
 
     <ContentPage.Content>
         <StackLayout Margin="10"
+                     HeightRequest="350"
                      HorizontalOptions="CenterAndExpand">
             <Frame CornerRadius="15" 
                        HorizontalOptions="Center" 
@@ -26,58 +27,62 @@
                     </Grid.ColumnDefinitions>
 
                     <Grid.RowDefinitions>
-                        <RowDefinition  />
-                        <RowDefinition  />
-                        <RowDefinition  />
-                        <RowDefinition  />
-                        <RowDefinition  />
+                        <RowDefinition Height="15" />
+                        <RowDefinition Height="10" />
+                        <RowDefinition Height="40" />
+                        <RowDefinition Height="40" />
+                        <RowDefinition Height="15" />
                         <RowDefinition  />
                     </Grid.RowDefinitions>
                     <!--1-->
                     <Label Text="Duração da Atividade(minutos)"
                            HorizontalOptions="CenterAndExpand"
+                           TextColor="black"
                            Grid.ColumnSpan="4"/>
 
-                    
+
                     <!--2-->
-                    <Slider Maximum="360"
+                    <Slider Maximum="60"
                             Grid.Row="2"
                             Grid.ColumnSpan="3"
+                            x:Name="sliderDuracao"
                             ValueChanged="OnSliderDuracaoValueChanged" />
-                    
+
                     <Label x:Name="_displayLabel"
                             Grid.Row="2" Grid.Column="3"
                             Text="1"
                             HorizontalOptions="Center"
                             VerticalOptions="Center"
-                            BackgroundColor="Gray"
+                            BackgroundColor="SlateGray"
                             Padding="10"
                             HorizontalTextAlignment="Center"
                             />
-                    
+
                     <!--3-->
                     <Picker x:Name="picker"
                             Grid.Row="3"
                             Grid.ColumnSpan="4"
+                            SelectedIndexChanged="OnPickerSelectedIndexChanged"
                             Title="Selecione a atividade"
+                            
                             TitleColor="Black">
                         <Picker.ItemsSource>
                             <x:Array Type="{x:Type x:String}">
                                 <x:String>Caminhada</x:String>
                                 <x:String>Corrida</x:String>
-                                
+
                             </x:Array>
                         </Picker.ItemsSource>
                     </Picker>
-                    
+
                     <!--4-->
                     <Label Text="Velocidade"
                            HorizontalOptions="Center"
                            TextColor="black"
                            Grid.Row="4" Grid.ColumnSpan="4"/>
-                            
+
                     <!--5-->
-                    <Slider Maximum="360"
+                    <Slider Maximum="30"
                             Grid.Row="5" Grid.ColumnSpan="3"
                             ValueChanged="OnSliderVelocidadeValueChanged" />
 
@@ -85,19 +90,50 @@
                             Grid.Row="5" Grid.Column="3"
                             Text="1"
                             HorizontalOptions="Center"
-                            BackgroundColor="Gray"
+                            BackgroundColor="SlateGray"
                             Padding="10"
                             VerticalOptions="CenterAndExpand" />
-                    
+
                     <Button Text="+"
                             TextColor="Black"
                             BackgroundColor="SlateGray"
                             HorizontalOptions="CenterAndExpand"
                             Grid.ColumnSpan="4"
-                            Grid.Row="6" />
-                        
+                            FontSize="25"
+                            Grid.Row="6"
+                            Clicked="yaya"/>
+
                 </Grid>
             </Frame>
+
+            <ListView HeightRequest="200"
+                      x:Name="listView"
+                      ItemsSource="{Binding Passos}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout BackgroundColor="Orange"
+                                         Margin="2"
+                                         Orientation="Vertical">
+                                <StackLayout Orientation="Horizontal">
+                                    
+                                    <Label Text="{Binding tipo}"
+                                           FontSize="20"
+                                           TextColor="black" />
+                                    <Label Text="{Binding velocidade}"
+                                           HorizontalOptions="CenterAndExpand"
+                                           VerticalOptions="Center"
+                                           TextColor="black" />
+                                    <Label Text="{Binding duracao}"
+                                           HorizontalOptions="EndAndExpand"
+                                           VerticalOptions="Center"
+                                           TextColor="black" />
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
 
         </StackLayout>
     </ContentPage.Content>
