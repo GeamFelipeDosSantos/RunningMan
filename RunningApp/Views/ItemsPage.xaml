@@ -10,75 +10,78 @@
              x:Name="BrowseItemsPage">
 
     <ContentPage.ToolbarItems>
-        
+
         <ToolbarItem Text="Sair" 
-                     Clicked="EncerrarApp"/>
+                     Clicked="EncerrarApp"
+                     Priority="1"
+                     />
         <ToolbarItem Text="Criar treino" 
-                     Clicked="CriarTreino"/>
-        
-     
+                     Clicked="CriarTreino"
+                     Priority="0"
+                     />
+
     </ContentPage.ToolbarItems>
 
-    <StackLayout Padding="10">
+    <StackLayout Padding="5">
         <Button Text="Caminhada" 
                 Clicked="DirecionarTelaCaminhada"
                 TextColor="Gray"
-                FontSize="36"
+                FontSize="30"
                 BackgroundColor="Orange"
                 BorderColor="Orange"
                 BorderWidth="5"
                 CornerRadius="25"
                 WidthRequest="150"
-                HeightRequest="75"/>
+                HeightRequest="60"/>
         <Button Text="Leve" 
                 Clicked="DirecionarTelaTreinoLeve"
                 TextColor="Gray"
-                FontSize="36"
+                FontSize="30"
                 BackgroundColor="Orange"
                 BorderColor="Orange"
                 BorderWidth="5"
                 CornerRadius="25"
                 WidthRequest="150"
-                HeightRequest="75"/>
+                HeightRequest="60"/>
         <Button Text="Iniciante" 
                 Clicked="DirecionarTelaTreinoIniciante"
                 TextColor="Gray"
-                FontSize="36"
+                FontSize="30"
                 BackgroundColor="Orange"
                 BorderColor="Orange"
                 BorderWidth="5"
                 CornerRadius="25"
                 WidthRequest="150"
-                HeightRequest="75"/>
+                HeightRequest="60"/>
         <Button Text="Intermediário" 
                 Clicked="DirecionarTelaTreinoIntermediario"
                 TextColor="Gray"
-                FontSize="36"
+                FontSize="30"
                 BackgroundColor="Orange"
                 BorderColor="Orange"
                 BorderWidth="5"
                 CornerRadius="25"
                 WidthRequest="150"
-                HeightRequest="75"/>
+                HeightRequest="60"/>
         <Button Text="Avançado" 
                 Clicked="DirecionarTelaTreinoAvancado"
                 TextColor="Gray"
-                FontSize="36"
+                FontSize="30"
                 BackgroundColor="Orange"
                 BorderColor="Orange"
                 BorderWidth="5"
                 CornerRadius="25"
                 WidthRequest="150"
-                HeightRequest="75"/>
+                HeightRequest="60"/>
         <Button Text="Atleta" 
                 Clicked="DirecionarTelaTreinoAtleta"
                 TextColor="Gray"
-                FontSize="36"
+                FontSize="30"
                 BackgroundColor="Orange"
                 BorderColor="Orange"
                 BorderWidth="5"
                 CornerRadius="25"
                 WidthRequest="150"
-                HeightRequest="75"/>
+                HeightRequest="60"/>
     </StackLayout>
 </ContentPage>

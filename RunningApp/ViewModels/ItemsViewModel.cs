@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 
 using RunningApp.Models;
-using RunningApp.Views;
 
 namespace RunningApp.ViewModels
 {
@@ -17,7 +16,7 @@ namespace RunningApp.ViewModels
 
         public ItemsViewModel()
         {
-            Title = "Running man";
+            Title = "Running Man";
             Items = new ObservableCollection<Item>();
             LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
 

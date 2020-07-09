@@ -14,7 +14,7 @@
                        HorizontalOptions="Center" 
                        VerticalOptions="Start"
                        BackgroundColor="Orange"
-                       Padding="10,40,10,100">
+                       Padding="20,20,20,20">
             
                 <Grid BackgroundColor="Orange"
                   >
@@ -34,7 +34,7 @@
 
             <Label Grid.Row="1"
                        Text="Quilometragem Mensal:"
-                       FontSize="Large"
+                       FontSize="Subtitle"
                        TextColor="Black"    
                        BackgroundColor="Orange"
                        HorizontalTextAlignment="Left" 
@@ -42,17 +42,17 @@
 
             <Label Grid.Row="1"
                        Grid.Column="2"
-                       Text="352 Km"
-                       FontSize="30"
+                       Text="352 km"
+                       FontSize="Title"
                        FontAttributes="Bold"  
                        TextColor="Black"    
                        BackgroundColor="Orange"
-                       HorizontalTextAlignment="Left" 
+                       HorizontalTextAlignment="End" 
                        VerticalTextAlignment="Center" />
                     
             <Label Grid.Row="2"
                        Text="Quilometragem Semanal:"
-                       FontSize="Large"
+                       FontSize="Subtitle"
                        TextColor="Black"    
                        BackgroundColor="Orange"
                        HorizontalTextAlignment="Left" 
@@ -60,17 +60,17 @@
 
             <Label Grid.Row="2"
                        Grid.Column="2"
-                       Text=" 26 Km"
-                       FontSize="30"
+                       Text=" 26 km"
+                       FontSize="Title"
                        FontAttributes="Bold"
                        TextColor="Black"    
                        BackgroundColor="Orange"
-                       HorizontalTextAlignment="Left" 
+                       HorizontalTextAlignment="End" 
                        VerticalTextAlignment="Center" />
 
             <Label Grid.Row="3"
                        Text="Gasto calórico Mensal:"
-                       FontSize="Large"
+                       FontSize="Subtitle"
                        TextColor="Black"    
                        BackgroundColor="Orange"
                        HorizontalTextAlignment="Left" 
@@ -79,16 +79,16 @@
             <Label Grid.Row="3"
                        Grid.Column="2"
                        Text="523 kcal"
-                       FontSize="30"
+                       FontSize="Title"
                        FontAttributes="Bold"
                        TextColor="Black"    
                        BackgroundColor="Orange"
-                       HorizontalTextAlignment="Left" 
+                       HorizontalTextAlignment="End" 
                        VerticalTextAlignment="Center" />
 
             <Label Grid.Row="4"
                        Text="Gasto calórico semanal:"
-                       FontSize="Large"
+                       FontSize="Subtitle"
                        TextColor="Black"    
                        BackgroundColor="Orange"
                        HorizontalTextAlignment="Left" 
@@ -97,11 +97,11 @@
             <Label Grid.Row="4"
                        Grid.Column="2"
                        Text="86 kcal"
-                       FontSize="30"
+                       FontSize="Title"
                        FontAttributes="Bold"
                        TextColor="Black"    
                        BackgroundColor="Orange"
-                       HorizontalTextAlignment="Left" 
+                       HorizontalTextAlignment="End" 
                        VerticalTextAlignment="Center" />
 
             
