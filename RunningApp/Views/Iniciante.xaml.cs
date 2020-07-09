@@ -1,11 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 using Xamarin.Forms.Maps;
-
 using RunningApp.Models;
+using Xamarin.Forms.Internals;
+using Xamarin.Essentials;
+using System.Threading.Tasks;
+using System.Diagnostics;
 
 namespace RunningApp.Views
 {
@@ -15,6 +16,9 @@ namespace RunningApp.Views
     public partial class Iniciante : ContentPage
     {
         public Item Item { get; set; }
+
+        Position mapPosition;
+        Location userLocation;
 
         public Iniciante()
         {
@@ -27,6 +31,40 @@ namespace RunningApp.Views
             };
 
             BindingContext = this;
+        }
+        protected override async void OnAppearing()
+        {
+
+            base.OnAppearing();
+            await FindUserLocation();
+
+        }
+        async Task FindUserLocation()
+        {
+            try
+            {
+                var request = new GeolocationRequest(GeolocationAccuracy.Best);
+                userLocation = await Geolocation.GetLastKnownLocationAsync();
+
+                userLocation = await Geolocation.GetLocationAsync(request);
+                Log.Warning("Erro no mapa Iniciante", userLocation?.ToString() ?? "no location");
+            }
+            catch (FeatureNotSupportedException fnsEx)
+            {
+                Debug.WriteLine(fnsEx);
+            }
+            catch (PermissionException pEx)
+            {
+                Debug.WriteLine(pEx);
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex);
+            }
+            if (userLocation == null)
+                return;
+            mapPosition = new Position(userLocation.Latitude, userLocation.Longitude);
+            InicianteMap.MoveToRegion(new MapSpan(mapPosition, 0.01, 0.01));
         }
 
         async void Save_Clicked(object sender, EventArgs e)

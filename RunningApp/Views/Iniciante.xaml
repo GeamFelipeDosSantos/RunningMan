@@ -13,8 +13,9 @@
     <ContentPage.Content>
         <StackLayout Margin="10">
 
-            <maps:Map x:Name="map"
-                      MapClicked="OnMapClicked" />
+            <maps:Map x:Name="InicianteMap"
+                      MapClicked="OnMapClicked" >
+            </maps:Map>
 
             <Grid BackgroundColor="Orange">
                 <Grid.ColumnDefinitions>

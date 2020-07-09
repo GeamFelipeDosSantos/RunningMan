@@ -1,14 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 using Xamarin.Forms.Maps;
 using Xamarin.Essentials;
-
-
 using RunningApp.Models;
-using Map = Xamarin.Forms.Maps.Map;
 using System.Threading.Tasks;
 using System.Diagnostics;
 using Xamarin.Forms.Internals;
@@ -29,17 +24,12 @@ namespace RunningApp.Views
             InitializeComponent();
 
             BindingContext = this;
-    
-  
-
         }
 
         protected override async void OnAppearing() {
 
             base.OnAppearing();
-            await FindUserLocation();
-
-            
+            await FindUserLocation(); 
 
         }
         async Task FindUserLocation()
@@ -50,7 +40,7 @@ namespace RunningApp.Views
                 userLocation = await Geolocation.GetLastKnownLocationAsync();
 
                 userLocation = await Geolocation.GetLocationAsync(request);
-                Log.Warning("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", userLocation?.ToString() ?? "no location");
+                Log.Warning("Erro no mapa de Atleta", userLocation?.ToString() ?? "no location");
             }
             catch (FeatureNotSupportedException fnsEx) {
                 Debug.WriteLine(fnsEx);

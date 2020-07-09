@@ -12,13 +12,9 @@
     <ContentPage.ToolbarItems>
 
         <ToolbarItem Text="Sair" 
-                     Clicked="EncerrarApp"
-                     Priority="1"
-                     />
+                     Clicked="EncerrarApp" />
         <ToolbarItem Text="Criar treino" 
-                     Clicked="CriarTreino"
-                     Priority="0"
-                     />
+                     Clicked="CriarTreino" />
 
     </ContentPage.ToolbarItems>
 
@@ -85,3 +81,4 @@
                 HeightRequest="60"/>
     </StackLayout>
 </ContentPage>
+    
