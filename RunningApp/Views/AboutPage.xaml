@@ -38,7 +38,7 @@
                     <Label.FormattedText>
                         <FormattedString>
                             <FormattedString.Spans>
-                                <Span Text="Running man" FontAttributes="Bold" FontSize="22" />
+                                <Span Text="Running Man" FontAttributes="Bold" FontSize="22" />
                                 <Span Text=" " />
                                 <Span Text="1.0" ForegroundColor="{StaticResource LightTextColor}" />
                             </FormattedString.Spans>
@@ -50,7 +50,6 @@
                         <FormattedString>
                             <FormattedString.Spans>
                                 <Span Text="App construído em " />
-                                <Span Text=" " />
                                 <Span Text="Xamarin" FontAttributes="Bold" />
                                 <Span Text="." />
                             </FormattedString.Spans>
@@ -61,7 +60,7 @@
                     <Label.FormattedText>
                         <FormattedString>
                             <FormattedString.Spans>
-                                <Span Text="Matéria:" />
+                                <Span Text="Matéria: " />
                                 <Span Text="Programação para dispositivos móveis II." FontAttributes="Bold" />
                             </FormattedString.Spans>
                         </FormattedString>
